@@ -1,4 +1,4 @@
-function animateTitle(Title = "PINEAPPPPLE", delay = 300) {
+function animateTitle(Title = "Zedacat", delay = 300) {
     let counter = 0;
     let direction = true;
     aniTitle = setInterval(function () {
@@ -11,4 +11,3 @@ function animateTitle(Title = "PINEAPPPPLE", delay = 300) {
         document.title = newtitle;
     }, delay)
 }
-animateTitle("ShadowOcto's Github Page",200);
